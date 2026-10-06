@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "scrapegraph": {
+      "command": "uvx",
+      "args": ["scrapegraph-mcp"],
+      "env": {
+        "SGAI_API_KEY": "${SGAI_API_KEY}"
+      }
+    }
+  }
+}
